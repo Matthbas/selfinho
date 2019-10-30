@@ -3,6 +3,10 @@ function run(userPhrase) {
     var emojiPhrase = "";
     for(var i = 0; i < userPhrase.length; i++){
         switch (userPhrase.charAt(i)){
+            case "à":
+            case "á":
+            case "ã":
+            case "â":
             case "a":
             case "A":
                 emojiPhrase += getA();
@@ -20,6 +24,9 @@ function run(userPhrase) {
                 emojiPhrase += getD();
                 break;
             case "e":
+            case "è":
+            case "é":
+            case "ê":
             case "E":
                 emojiPhrase += getE();
                 break;
@@ -36,6 +43,9 @@ function run(userPhrase) {
                 emojiPhrase += getH();
                 break;
             case "i":
+            case "í":
+            case "ì":
+            case "î":
             case "I":
                 emojiPhrase += getI();
                 break;
@@ -56,10 +66,15 @@ function run(userPhrase) {
                 emojiPhrase += getM();
                 break;
             case "n":
+            case "ñ":
             case "N":
                 emojiPhrase += getN();
                 break;
             case "o":
+            case "ó":
+            case "ò":
+            case "õ":
+            case "ô":
             case "O":
                 emojiPhrase += getO();
                 break;
@@ -84,6 +99,9 @@ function run(userPhrase) {
                 emojiPhrase += getT();
                 break;
             case "u":
+            case "ú":
+            case "ù":
+            case "û":
             case "U":
                 emojiPhrase += getU();
                 break;
