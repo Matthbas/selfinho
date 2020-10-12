@@ -18,6 +18,10 @@ function run(userPhrase) {
             case "C":
                 emojiPhrase += getC();
                 break;
+            case "ç":
+            case "Ç":
+                emojiPhrase += getCCedilla();
+                break;
             case "d":
             case "D":
                 emojiPhrase += getD();
@@ -143,6 +147,10 @@ function getB() {
 
 function getC() {
   return "🤳🤳🤳🤳🤳\n🤳\n🤳\n🤳\n🤳\n🤳\n🤳🤳🤳🤳🤳";
+}
+
+function getCCedilla() {
+  return "🤳🤳🤳🤳🤳\n🤳\n🤳\n🤳\n🤳\n🤳\n🤳🤳🤳🤳🤳\n         🤳";
 }
 
 function getD() {
